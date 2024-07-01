@@ -11,9 +11,10 @@ const MAX_ENDPOINT_CALLS = 5;
 /**
  * Tracks the number of calls made to an API's endpoint.
  * @param {{
- *   protocol: String,
- *   name: String,
+ *   protocol: string,
+ *   name: string,
  * }} endpoint - The endpoint to make a request to.
+ * @throws {Error} When the endpoint load is high.
  * @author Zerihun Shiferaw <https://github.com/Zed-bard>
  */
 export function queryAPI(endpoint) {
