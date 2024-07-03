@@ -1,7 +1,3 @@
-Certainly! Here is a more detailed version of your README.md file, incorporating details from the original file:
-
----
-
 # TypeScript
 
 This project contains tasks for learning to use TypeScript.
